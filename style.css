@@ -1,0 +1,430 @@
+/* homepage code */
+
+.homepage-body{
+	background-color: white;
+}
+.homepage-title{
+	background-color: #223B5E;
+	padding: 5px;
+}
+
+/* homepage headings */
+
+.homepage-h1-1{
+	font-family: trebuchet ms;
+	text-align: center;
+	font-size: 40px;
+	color: white;
+}
+.homepage-h2-1{
+	font-family: trebuchet ms;
+	text-align: center;
+	color: white;
+}
+.homepage-h2-2{
+	font-family: trebuchet ms;
+	text-align: center;
+	color: #223B5E;
+}
+.homepage-h3-1{
+	font-family: trebuchet ms;
+	text-align: center;
+	color: #223B5E;
+}
+
+/* homepage images */
+
+.homepage-image-1{
+	display: block;
+	align-items: center;
+	margin: 0 auto;
+	opacity: 0.7;
+}
+
+/* homepage grid 1 */
+
+.homepage-grid-1{
+	display: grid;
+	margin: auto;
+	width: 1300px;
+	height: 50px;
+	grid-template: 30px / 20% 20% 20% 20% 20%;
+	grid-gap: 20px;
+}
+.homepage-box-a{
+	background-color: #223B5E;
+	color: white;
+	text-align: center;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	font-family: trebuchet ms;
+	font-size: 18px;
+}
+.homepage-box-b{
+	background-color: #223B5E;
+	color: white;
+	text-align: center;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	font-family: trebuchet ms;
+	font-size: 18px;
+}
+.homepage-box-c{
+	background-color: #223B5E;
+	color: white;
+	text-align: center;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	font-family: trebuchet ms;
+	font-size: 18px;      
+}
+.homepage-box-d{
+	background-color: #223B5E;
+	color: white;
+	text-align: center;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	font-family: trebuchet ms;
+	font-size: 18px;
+}
+.homepage-box-e{
+	background-color: #223B5E;
+	color: white;
+	text-align: center;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	font-family: trebuchet ms;
+	font-size: 18px;
+}
+
+/* Social Justice Page */
+
+.social-justice-body{
+	background-color: white;
+}
+.social-justice-h1-1{
+	font-family: trebuchet ms;
+	box-sizing: border-box;
+	padding: 20px 10px;
+	background-color: #223B5E;
+	color: white;
+	text-align: center;
+	width: 68%;
+	align-items: center;
+	margin: 0 auto;
+}
+
+/* Social Justice Images */
+
+.social-justice-image-1{
+	display: block;
+	align-items: center;
+	height: 600px;
+	margin: 0 auto;
+	padding: 10%;
+}
+
+/* Social Justice Grid */
+
+.social-justice-grid{
+	display: grid;
+	width: 1300px;
+	height: 800px;
+	grid-template: repeat (3, 4fr) / repeat (3, 12fr);
+	grid-gap: 20px;
+	margin: 0 auto;
+}
+.social-justice-box-a{
+	background-color: #223B5E;
+	color: white;
+	text-align: center;
+	grid-area: 4 / 4 / span 2 / span 6;
+	font-family: trebuchet ms;
+}
+.social-justice-box-b{
+	background-color: white;
+	color: #223B5E;
+	border: 10px #223B5E solid;
+	text-align: center;
+	grid-area: 3 / 4 / span 1 / span 6;
+	font-family: trebuchet ms;
+	font-size: 20px;
+}
+.social-justice-box-c{
+	background-color: #223B5E;
+	color: white;
+	grid-area: 3 / 1 / span 3 / span 3;
+	font-family: trebuchet ms;
+	font-size: 20px;
+}
+.social-justice-box-d{
+	background-color: white;
+	color: #223B5E;
+	border: 10px #223B5E double;
+	grid-area: 6 / 1 / span 1 / span 3;
+	font-family: trebuchet ms;
+}
+/* Environmental Effects Page */
+
+.environmental-h1-1{
+	font-family: trebuchet ms;
+	box-sizing: border-box;
+	padding: 20px 10px;
+	background-color: #223B5E;
+	color: white;
+	text-align: center;
+	width: 68%;
+	align-items: center;
+	margin: 0 auto;
+}
+
+/* Environmental Effects Images */
+
+.environmental-image-1{
+	height: 600px;
+	padding: 60px;
+}
+
+/* Environmental Effects Grid */
+
+.environmental-grid{
+	display: grid;
+	width: 1300px;
+	height: 800px;
+	margin: 0 auto;
+	grid-template: repeat (4, 1fr) / repeat (4, 1fr);
+	grid-gap: 20px;
+}
+.environmental-box-a{
+	background-color: #223B5E;
+	color: white;
+	text-align: center;
+	grid-area: 1 / 1 / span 8;
+	font-family: trebuchet ms;
+}
+.environmental-box-b{
+	background-color: #223B5E;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	grid-area: 9 / 1 / span 4 / span 2;
+	font-family: trebuchet ms;
+	padding: 10px;
+}
+.environmental-box-c{
+	background-color: white;
+	color: #223B5E;
+	border: 10px #223B5E solid;
+	font-size: 20px;
+	text-align: center;
+	font-family: trebuchet ms;
+}
+.environmental-box-d{
+	background-color: #223B5E;
+	color: white;
+	grid-area: span 7;
+	font-family: trebuchet ms;
+	font-size: 22px;
+}
+
+/* Historical Facts Page */
+
+.historical-h1-1{
+	font-family: trebuchet ms;
+	box-sizing: border-box;
+	padding: 20px 10px;
+	background-color: #223B5E;
+	color: white;
+	text-align: center;
+	width: 68%;
+	align-items: center;
+	margin: 0 auto;
+}
+
+/* Historical Facts Images */
+
+.historical-facts-image-1{
+	display: block;
+	align-items: center;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+/* Historical Facts Grid */
+
+.historical-grid{
+	display: grid;
+	width: 1300px;
+	height: 800px;
+	margin: 0 auto;
+	grid-template: repeat (4, 1fr) / repeat (4, 1fr);
+	grid-gap: 20px;
+}
+.historical-box-a{
+	background-color: #223B5E;
+	color: white;
+	text-align: center;
+	grid-area: 2 / 1 / span 7;
+	font-family: trebuchet ms;
+}
+.historical-box-b{
+	background-color: #223B5E;
+	color: white;
+	text-align: center;
+	grid-area: 9 / 1 / span 4 / span 2;
+	font-family: trebuchet ms;
+}
+.historical-box-c{
+	background-color: #223B5E;
+	color: white;
+	text-align: center;
+	font-family: trebuchet ms;
+	font-size: 18px;
+	padding: 10px;
+}
+.historical-box-d{
+	background-color: white;
+	color: #223B5E;
+	border: 10px #223B5E solid;
+	font-size: 20px;
+	grid-area: span 8;
+	font-family: trebuchet ms;
+}
+
+/* Scientific Data Page */
+
+.scientific-data-h1-1{
+	font-family: trebuchet ms;
+	box-sizing: border-box;
+	padding: 20px 10px;
+	background-color: #223B5E;
+	color: white;
+	text-align: center;
+	width: 68%;
+	align-items: center;
+	margin: 0 auto;
+}
+
+/* Scientific Data Images */
+
+.scientific-data-image-1{
+	display: block;
+	align-items: center;
+	margin: 0 auto;
+	height: 300px;
+	padding: 12%;
+}
+.scientific-data-image-2{
+	display: block;
+	align-items: center;
+	margin: 0 auto;
+	height: 300px;
+	padding: 20px;
+}
+
+/* Scientific Data Navigation */
+
+.scientific-navigation{
+	text-align: center;
+}
+
+/* Scientific Data Grid */
+
+.scientific-data-grid{
+	display: grid;
+	width: 1300px;
+	height: 800px;
+	margin: 0 auto;
+	grid-template: repeat (3, 4fr) / repeat (3, 12fr);
+	grid-gap: 20px;
+}
+.scientific-data-box-a{
+	background-color: #223B5E;
+	color: white;
+	text-align: center;
+	grid-area: 2 / 4 / span 2 / span 6;
+	font-family: trebuchet ms;
+}
+.scientific-data-box-b{
+	background-color: white;
+	color: #223B5E;
+	border: 10px #223B5E solid;
+	grid-area: 1 / 4 / span 1 / span 6;
+	font-family: trebuchet ms;
+	
+}
+.scientific-data-box-c{
+	background-color: #223B5E;
+	color: white;
+	grid-area: 1 / 1 / span 3 / span 3;
+	font-family: trebuchet ms;
+	font-size: 20px;
+}
+.scientific-data-box-d{
+	background-color: #223B5E;
+	color: white;
+	text-align: center;
+	grid-area: 4 / 1 / span 1 / span 9;
+	font-family: trebuchet ms;
+}
+
+/* Campaign Page */
+
+.campaign-h1-1{
+	font-family: trebuchet ms;
+	box-sizing: border-box;
+	padding: 20px 10px;
+	background-color: #223B5E;
+	color: white;
+	text-align: center;
+	width: 68%;
+	align-items: center;
+	margin: 0 auto;
+}
+
+/* Campaign Page Images */
+
+.campaign-image-1{
+	max-width: 100%;
+}
+
+/* Campaign Grid */
+
+.campaign-grid{
+	display: grid;
+	width: 1300px;
+	height: 800px;
+	margin: 0 auto;
+	grid-template: repeat (3, 4fr) / repeat (3, 12fr);
+	grid-gap: 20px;
+}
+.campaign-box-a{
+	background-color: white;
+	color: #223B5E;
+	border: 10px #223B5E solid;
+	text-align: center;
+	grid-area: 2 / 4 / span 2 / span 6;
+	font-family: trebuchet ms;
+}
+.campaign-box-b{
+	background-color: #223B5E;
+	color: white;
+	text-align: center;
+	grid-area: 1 / 4 / span 1 / span 6;
+	font-family: trebuchet ms;
+}
+.campaign-box-c{
+	background-color: #223B5E;
+	color: white;
+	grid-area: 1 / 1 / span 3 / span 3;
+	font-family: trebuchet ms;
+	font-size: 20px;
+}
+.campaign-box-d{
+	background-color: #223B5E;
+	color: white;
+	text-align: center;
+	grid-area: 4 / 1 / span 1 / span 9;
+	font-family: trebuchet ms;
+	font-size: 24px;
+}
